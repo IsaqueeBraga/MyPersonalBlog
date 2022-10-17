@@ -3,14 +3,18 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import * as S from "../Estilos/HeaderStyle";
 import About from "../About/About";
 import Works from "../Works/Works";
-import Ods from "../Ods/Ods";
-import Torcida from "../Assets/Torcida do Flamengo.png";
-import Tiroles from "../Assets/Tiroles.jpg";
-import GitHub from "../Assets/Git hub.png";
-import Instagram from "../Assets/Instagram.png";
-import Twitter from "../Assets/Twitter.png";
+import Ods from "../Ods/Ods"
+import { createGlobalStyle } from "styled-components";
 
 
+export const GlobalStyle = createGlobalStyle`
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  
+}
+`;
 export default function Header({ link1, link2, link3 }) {
 return(
 <BrowserRouter>
@@ -34,24 +38,8 @@ return(
         <Route path="/works" element={<Works />} />
         <Route path="/ods" element={<Ods />} />
       </Routes>
-      <main>
-      <S.ContainerHome>
-      <S.H1> ISAQUE BRAGA, 24, RJ. </S.H1>
-      <S.MyPhoto src={Torcida} alt="Mengao"/>
-      <S.MyPhototwo src={Tiroles} alt="Melhor amigo"/>
-      </S.ContainerHome>
-      </main>
-      <S.Box>
-        <a href="https://twitter.com/Isaquecrf_/">
-          <S.Image src={Twitter} />
-        </a>
-        <a href="https://www.instagram.com/tchalla/">
-          <S.Image src={Instagram} />
-        </a>
-        <a href="https://github.com/IsaqueeBraga/">
-          <S.Image src={GitHub} />
-        </a>
-      </S.Box>
+      
+  
     </BrowserRouter>
 );
 
