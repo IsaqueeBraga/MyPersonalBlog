@@ -5,6 +5,7 @@ import About from "../About/About";
 import Works from "../Works/Works";
 import Ods from "../Ods/Ods"
 import { createGlobalStyle } from "styled-components";
+import Home from "./Home";
 
 
 export const GlobalStyle = createGlobalStyle`
@@ -34,6 +35,7 @@ return(
         </S.Nav>
       </S.Header>
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/works" element={<Works />} />
         <Route path="/ods" element={<Ods />} />

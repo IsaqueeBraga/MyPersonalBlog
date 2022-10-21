@@ -37,7 +37,6 @@ export const Ul = styled.header`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  max-width: 1200px;
   width: 100%;
   height: 100%;
   background-color:black;
