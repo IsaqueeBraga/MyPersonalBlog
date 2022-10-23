@@ -13,16 +13,18 @@ export const GlobalStyle = createGlobalStyle`
 
 
 export const Container =styled.section`
-width: 100%;
-  height: 45px;
+  height: 173vh;
   display: flex;
   justify-content: center;
+  background-color:black;
+  border:solid;
+
   @media only screen and (min-width: 320px) and (max-width: 800px) {
-    width: 100%;
-    height: 45px;
+    height: 136vh;
     display: flex;
     justify-content: center;
-
+    background-color:black;
+    border:solid;
   }
 `
 
@@ -33,7 +35,6 @@ export const Div =styled.div`
 
 
 export const Main =styled.main`
-background-color:black;
 `
 
 export const H1 =styled.h1`
@@ -45,6 +46,7 @@ justify-content: center;
 width: 100%;
 font-size: 3vw;
 height: 30vh;
+color:white;
 @media only screen and (min-width: 320px) and (max-width: 800px) {
     font-family: "Gill Sans", sans-serif;
     letter-spacing: 0.1vw;
@@ -67,8 +69,9 @@ justify-content: center;
 position: relative;
 left: 25vw;
 font-size: 1.5vw;
-background-color: black;
-color:white;
+background-color: white;
+color:black;
+border-radius: 40%;
 flex-direction:column;
 @media only screen and (min-width: 320px) and (max-width: 800px) {
     width:50vw;
@@ -77,11 +80,13 @@ flex-direction:column;
     align-items: center;
     justify-content: center;
     position: relative;
-    left: 42vw;
+    left: 34vw;
     font-size: 2vw;
-    background-color: black;
-    color:white;
+    background-color: white;
+    color:black;
     flex-direction:column;  
+    border-radius: 40%;
+
 }
 
 `
@@ -120,9 +125,6 @@ export const Box = styled.div`
     height: 8vh;
     top: 110vh;
     left: 45%;
-
-
-
   }
   `
 

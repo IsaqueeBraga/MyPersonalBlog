@@ -19,12 +19,12 @@ export const GlobalStyle = createGlobalStyle`
 
  export const Nav = styled.header`
   width: 100%;
-  height: 45px;
+  height: 40px;
   display: flex;
   justify-content: center;
   @media only screen and (min-width: 320px) and (max-width: 800px) {
     width: 100%;
-    height: 45px;
+    height: 40px;
     display: flex;
     justify-content: center;
   
@@ -39,15 +39,17 @@ export const Ul = styled.header`
   align-items: center;
   width: 100%;
   height: 100%;
-  background-color:black;
+  background-color:gray;
+  border:solid;
   @media only screen and (min-width: 320px) and (max-width: 800px) {
     display: flex;
   justify-content: space-evenly;
   align-items: center;
-  max-width: 1200px;
   width: 100%;
   height: 100%;
-  background-color:red;
+  background-color:gray;
+  border:solid;
+
   }
 `
 
@@ -55,12 +57,12 @@ export const Li = styled.header``
 
 export const LinkS = styled(Link)`
   text-decoration: none;
-  color: white;
+  color: black;
   font-weight: 600;
 
 
   &:hover {
-    color: gray;
+    color: red;
     cursor: pointer;
     font-weight:bolder;
   }
@@ -68,6 +70,10 @@ export const LinkS = styled(Link)`
     text-decoration: none;
     color: black;
     font-weight: 600;
+    &:hover {
+      color: red;
+      cursor: pointer;
+      font-weight:bolder;
   
 
 
@@ -97,7 +103,7 @@ font-family: "Helvetica", sans-serif;
   justify-content: center;
   width: 100%;
   font-size: 5vh;
-  height: 30vh;
+  height: 35vh;
   }
 `
 
