@@ -75,12 +75,11 @@ border-radius: 40%;
 flex-direction:column;
 @media only screen and (min-width: 320px) and (max-width: 800px) {
     width:50vw;
-    bottom: -10vh;
     padding: 8%;
     align-items: center;
     justify-content: center;
     position: relative;
-    left: 34vw;
+    left: 42vw;
     font-size: 2vw;
     background-color: white;
     color:black;
