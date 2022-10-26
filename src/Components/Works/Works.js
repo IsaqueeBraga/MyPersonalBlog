@@ -45,7 +45,7 @@ export default function Works (){
                </S.Card>
                <S.Card>
                <S.H2>Challenge Knight</S.H2>
-                    <a href="/" target="_blank">
+                    <a href="https://frabjous-dasik-d0b846.netlify.app/" target="_blank">
                         <S.Image src={Cavaleiro} />
                     </a>
                     <S.DivThree>
@@ -59,7 +59,7 @@ export default function Works (){
                </S.Card>
                <S.Card>
                <S.H2>Challenge Curly</S.H2>
-                    <a href="/" target="_blank">
+                    <a href="https://relaxed-churros-0046e9.netlify.app/" target="_blank">
                         <S.Image src={Crespo} />
                     </a>
                     <S.DivThree>
