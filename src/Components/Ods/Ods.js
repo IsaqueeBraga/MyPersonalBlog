@@ -12,7 +12,7 @@ export default function Onu() {
       </S.H1>
       <S.Ancora
         href="https://aguasdorio.com.br/obras-de-implantacao-de-redes-chegam-para-realizar-o-sonho-da-agua-tratada-nas-torneiras-em-duque-de-caxias/"
-        target="_blank"
+        target="blank"
       >
         <S.Img
           src={Agua}

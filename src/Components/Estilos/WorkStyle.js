@@ -14,7 +14,7 @@ export const GlobalStyle = createGlobalStyle`
 
 export const Container =styled.section`
 display: flex;
- height:195vh;
+ height:203vh;
  flex-direction:column;
  background-color:black;
  @media only screen and (min-width: 320px) and (max-width: 800px) {

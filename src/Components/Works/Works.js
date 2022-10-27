@@ -17,7 +17,7 @@ export default function Works (){
     <S.SecTwo>
     <S.Card>
     <S.H2>Challenge Beat</S.H2>
-    <a href="https://beat-33uxota4y-isaqueebraga.vercel.app/" target="_blank">
+    <a href="https://beat-33uxota4y-isaqueebraga.vercel.app/" target="blank">
     <S.Image src={Beat} />
           </a>
           <S.DivThree>
@@ -31,7 +31,7 @@ export default function Works (){
     </S.Card>
     <S.Card>
     <S.H2>Challenge Finn</S.H2>
-                    <a href="https://finn-isaqueebraga.vercel.app/" target="_blank">
+                    <a href="https://finn-isaqueebraga.vercel.app/" target="blank">
                         <S.Image src={Finn} />
                     </a>
                     <S.DivThree>
@@ -45,7 +45,7 @@ export default function Works (){
                </S.Card>
                <S.Card>
                <S.H2>Challenge Knight</S.H2>
-                    <a href="https://frabjous-dasik-d0b846.netlify.app/" target="_blank">
+                    <a href="https://frabjous-dasik-d0b846.netlify.app/" target="blank">
                         <S.Image src={Cavaleiro} />
                     </a>
                     <S.DivThree>
@@ -59,7 +59,7 @@ export default function Works (){
                </S.Card>
                <S.Card>
                <S.H2>Challenge Curly</S.H2>
-                    <a href="https://relaxed-churros-0046e9.netlify.app/" target="_blank">
+                    <a href="https://relaxed-churros-0046e9.netlify.app/" target="blank">
                         <S.Image src={Crespo} />
                     </a>
                     <S.DivThree>
